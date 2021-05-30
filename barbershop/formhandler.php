@@ -38,7 +38,7 @@ foreach ($_POST as $key => $value) {
 
 	
 	
-$from='From: '. $email . "(" . $name . ")" . "\r\n" . 'Bcc: torres7p@gmail.com' . "\r\n";
+$from='From: '. $email . "(" . $name . ")" . "\r\n" . 'Bcc: ' . "\r\n";
 // sends bcc to alternate address 
 
 //Creates intelligible subject line that shows where it came from
@@ -50,6 +50,6 @@ $subject = 'Second message'; // if your client has more than one web site, you c
 
 //Sends email, with elements created above
 //Replace clientname@domain.com with your client's email address. Put your address here for initial testing, put your client's address for final testing and use.
-mail ('torres7p@gmail.com', $subject, $body, $from);
+mail ('', $subject, $body, $from);
 
 header('Location: thx.html'); // replace "thx.html" with the name and path to your actual thank you page
