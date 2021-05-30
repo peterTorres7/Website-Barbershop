@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact page for Lan's Beauty Barber Shop</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+    
+<body class="contact">
+    <div id="wrapper">
+        <header>
+            <div class="header-inner">
+                <a href="index.html">
+                    <img id="logo" src="images/logo.png" alt="Logo">
+                </a>
+            </div> <!-- end header inner -->    
+            <h1>Lan's Beauty Barber Shop</h1>
+            <h2>813 Madison St, Seattle, WA 98104</h2>
+            <h2>(206) 682-4917</h2>
+            <h2>Mon-Sat 9am to 6pm</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+       
+        <main>  
+        <form action="formhandler.php" method="post">
+        <fieldset>
+            <legend>Contact Info</legend>
+            <label>Name</label>
+                <input type="text" name="name">
+            <label>Email</label>
+                <input type="email" name="email">
+            <label>Which service are you interested in?</label>
+                <ul>
+                    <li><input type="radio" name="base" value="cut">Cut</li>
+                    <li><input type="radio" name="base" value="style">Style</li>
+                    <li><input type="radio" name="base" value="color">Permanent Color</li>
+                </ul>
+            <label>Which day(s) is best for you?</label>
+                <ul>
+                    <li><input type="checkbox" name="day[]" value="monday">Monday</li>
+                    <li><input type="checkbox" name="day[]" value="tuesday">Tuesday</li>
+                    <li><input type="checkbox" name="day[]" value="wednesday">Wednesday</li>
+                    <li><input type="checkbox" name="day[]" value="thursday">Thursday</li>
+                    <li><input type="checkbox" name="dat[]" value="friday">Friday</li>
+                    <li><input type="checkbox" name="day[]" value="saturday">Saturday</li>
+                </ul>
+            <label>Time of day</label>
+            <select name="time">
+                <option value="morning">Morning</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="evening">Evening</option>
+            </select>
+
+            <label>Comments</label>
+                <textarea name="comments">
+                </textarea>
+            <input type="submit" value="Submit!">
+        </fieldset>
+        </form>
+        </main>
+        
+       <footer>
+            <ul>
+                <li>Copyright 2020 &copy;</li>
+                <li>All Rights Reserved</li>
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="../index.html">Web design by Peter</a></li>
+                <li><a href="https://validator.w3.org/check?uri=referer">Valid</a></li>
+
+            </ul>
+        </footer>
+       
+    </div> <!-- end wrapper -->
+    
+</body>
+</html>

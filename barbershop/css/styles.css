@@ -1,0 +1,265 @@
+/********Styles for Lan's Beauty Barber Shop***********/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background-color: beige;
+    font-size: 95%;
+    font-family: Verdana, arial, sans-serif;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 20px auto;
+    background-color: gray;
+}
+
+header {
+    background-color: gray;
+}
+
+#logo {
+    display: inline;
+    margin-bottom: -10px;
+}
+
+.header-inner {
+    float: left;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    clear: both;
+}
+header h2 {
+    text-align: center;
+    clear: both;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+
+nav {
+    height: 50px;
+    line-height: 50px;
+    background: darkred;
+}
+
+nav ul {
+    list-style-type: none;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+}
+
+nav a:hover {
+    background: black;
+}
+
+.home nav li:nth-child(1) a,
+.services nav li:nth-child(2) a,
+.about nav li:nth-child(3) a,
+.contact nav li:nth-child(4) a {
+    background: black; 
+}
+
+#banner {
+    background: gray;
+}
+
+main {
+    background: gray;
+    margin-top: 20px;
+}
+
+.services main {
+    width: 740px;
+    float: left;
+}
+
+.thanks main {
+    height: 400px;
+}
+
+.container {
+    clear: both;
+    overflow: hidden;
+}
+
+.third {
+    width: 232px;
+    float: left;
+    padding: 15px;
+}
+
+.third:nth-child(1),
+.third:nth-child(2) {
+    margin-right: 20px;
+}
+
+.services aside {
+    margin-top: 10px;
+    width: 180px;
+    height: 300px;
+    float: right;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+h2 {
+    margin-top: 10px;
+}
+
+h3 {
+    color: darkred;
+}
+
+p {
+    margin: 10px 20px;
+    
+}
+
+blockquote {
+    font-size: 1.1em;
+    font-style: italic;
+    line-height: 1.4;
+    margin-top: 20px;
+    border-left: 2px solid darkred;
+    padding-left: 10px;
+
+}
+
+footer {
+    border-top: 1px dotted black;
+    height: 50px;
+    line-height: 50px;
+    font-size: .875em;
+    background-color: darkred;
+    clear: both;
+}
+
+footer ul {
+    list-style-type: none;
+    float: right;
+}
+
+footer li {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+footer a {
+    color: black;
+}
+
+/***********Form styles*****************/
+
+form {
+    max-width: 580px;
+}
+
+fieldset {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+legend {
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 0 5px;
+    color: darkred;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+input[type=radio], input[type=checkbox] {
+    width: auto;
+    height: auto;
+    margin-right: 5px;
+}
+
+input[type=submit] {
+    width: auto;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+form ul {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+form li {
+    list-style-type: none;
+}
+
+/**********Typography********/
+
+h1, h2, h3, h4 {
+    margin-bottom: 8px;
+    font-family: times, serif;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 2.4888em;
+    color: darkred;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 2.074;
+/*    font-weight: 200;*/
+}
+
+header h1 {
+    font-size: 3em;
+}
+
+p {
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
