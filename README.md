@@ -1,4 +1,5 @@
 ## Table of contents
+📂
 * [General info](#general-info)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
@@ -7,6 +8,8 @@
 * [Inspiration](#inspiration)
 
 ## General info
+🖥️
+
 A multi-page web application for a local business, Lan's Beauty Barber Shop. 
 
 ## Screenshots
@@ -42,7 +45,7 @@ cd Website-Barbershop
 🚀
 User Ability:
 * Browse website pages
-* View barber shop detail
+* View barber shop details
 * Send messages to owner
 
 ## Status
