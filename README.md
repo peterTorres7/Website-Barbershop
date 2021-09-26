@@ -54,7 +54,7 @@ Project is: _finished_
 
 ## Inspiration
 🎇
-Build a web application for a local barbershop business.
+Build a web application for a local business.
 
 ## Author
 🧑🏻
