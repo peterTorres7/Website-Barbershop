@@ -36,6 +36,8 @@ cd Website-Barbershop
 
 - CSS
 
+- PHP
+
 ## Features
 🚀
 User Ability:
