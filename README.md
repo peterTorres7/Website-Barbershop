@@ -7,7 +7,7 @@
 * [Inspiration](#inspiration)
 
 ## General info
-A multi-page web application for a local barbershop business, Lan's Beauty Barber Shop. 
+A multi-page web application for a local business, Lan's Beauty Barber Shop. 
 
 ## Screenshots
 
