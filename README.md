@@ -43,6 +43,7 @@ cd Website-Barbershop
 
 ## Features
 🚀
+
 User Ability:
 * Browse website pages
 * View barber shop details
@@ -50,6 +51,7 @@ User Ability:
 
 ## Status
 🦁
+
 Project is: _finished_
 
 ## Inspiration
