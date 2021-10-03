@@ -56,6 +56,7 @@ Project is: _finished_
 
 ## Inspiration
 🎇
+
 Build a web application for a local business.
 
 ## Author
