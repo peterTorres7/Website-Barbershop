@@ -13,6 +13,7 @@
 A multi-page web application for a local business, Lan's Beauty Barber Shop. 
 
 ## Screenshots
+🎇
 
 ## Setup
 🛠
